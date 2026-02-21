@@ -40,19 +40,19 @@
               <ul>
                 <li>
                   <label for="Red">
-                    <input type="radio" id="Red" name="Colors" value="Red" />
+                    <input type="radio" id="Red" name="Colors" value="Red" required />
                     Red
                   </label>
                 </li>
                 <li>
                   <label for="Green">
-                    <input type="radio" id="Green" name="Colors" value="Green" />
+                    <input type="radio" id="Green" name="Colors" value="Green" required />
                     Green
                   </label>
                 </li>
                 <li>
                   <label for="Blue">
-                    <input type="radio" id="Blue" name="Colors" value="Blue" />
+                    <input type="radio" id="Blue" name="Colors" value="Blue" required />
                     Blue
                   </label>
                 </li>
@@ -62,7 +62,7 @@
               <label for="size">
                 <span>Size:</span>
               </label>
-              <select id="size" name="T-shirt_size">
+              <select id="size" name="T-shirt_size" required >
                 <option value="XS">XS</option>
                 <option value="S">S</option>
                 <option value="M">M</option>
@@ -70,6 +70,13 @@
                 <option value="XL">XL</option>
                 <option value="XXL">XXL</option>
               </select>
+            </p>
+          </section>
+
+          <!-- Submit button -->
+          <section>
+            <p>
+              <button type="submit">Submit</button>
             </p>
           </section>
       </form>

@@ -49,10 +49,14 @@ main {
   max-width: var(--container);
   margin: 0 auto calc(var(--space) * 4) auto;
 }
+/* Footer changes */
 footer {
   position: fixed;
+  left: 0;
+  right: 0;
   bottom: 0;
   text-align: center;
+  padding: var(--space);
 }
 /* ====== Articles Grid Layout ====
 Setting the rules for how articles are placed in the main element.
@@ -87,3 +91,12 @@ article {
     grid-column: span 3;
   }
 }
+
+/* header changes */
+header {
+  max-width: var(--container);
+  margin: 0 auto;
+  text-align: center;
+  padding: calc(var(--space) * 2) var(--space);
+}
+
